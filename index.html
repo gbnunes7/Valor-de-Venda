@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor de Venda</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="kontainer__mercadoria">
+            <label for="custo__mercadoria">Custo da Mercadoria</label>
+            <input id="custo__mercadoria" type="text">
+        </section>
+        <section class="kontainer__custo--fixo">
+            <label for="custo__fixo">Custo Fixo</label>
+            <input id="custo__fixo" type="text">
+        </section>
+        <section class="kontainer__vendas--mensais">
+            <label for="vendas__mensais">Vendas Mensais</label>
+            <input id="vendas__mensais" type="text">
+        </section>
+        <section class="kontainer__incidencias">
+            <div class="div__custo--fixo">
+                <p for="custo__fixo--vendas">% de Custo fixo sobre VM <span><i id="custo__fixo--vendas--js"></i></span></p>
+            </div>
+            <div class="div__simples--nacional">
+                <label for="simples__nacional">Simples Nacional</label>
+                <input id="simples__nacional" type="text">
+            </div>
+            <div class="div__comissao--vendedor">
+                <label for="comissao__vendedor">Comissão de vendedor</label>
+                <input id="comissao__vendedor" type="text">
+            </div>
+            <div class="div__lucro--vendas">
+                <label for="lucro__vendas">Lucro desejado sobre vendas</label>
+                <input id="lucro__vendas" type="text">
+            </div>
+            <div class="div__total--incidencias">
+                <p for="total__incidencias">% Total das incidências <span><i id="total__incidencias--js"></i></span></p>
+            </div>
+        </section>
+        <section class="kontainer__mark--up">
+            <div class="div__markup--divisor">
+                <p>Mark Up Divisor<span><i id="mark__up--divisor--js"></i></span></p>
+            </div>
+            <div class="div__markup--multplicador">Mark Up Multiplicador <span><i id="mark__up--multiplicador--js"></i></span></div>
+        </section>
+        <section class="kontainer__preco--final">
+            <p>Preço de venda calculado <span><i id="preco__venda--final--js"></i></span></p>
+        </section>
+        <button id="button__confirmar">Confirmar</button>
+    </main>
+    
+</body>
+</html>
