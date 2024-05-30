@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valor de Venda</title>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -25,7 +27,7 @@
         </section>
         <section class="kontainer__incidencias">
             <div class="div__custo--fixo">
-                <p for="custo__fixo--vendas">% de Custo fixo sobre VM <span><i id="custo__fixo--vendas--js"></i></span></p>
+                <p for="custo__fixo--vendas">% de Custo fixo sobre VM: <span><i id="custo__fixo--vendas--js"></i></span></p>
             </div>
             <div class="div__simples--nacional">
                 <label for="simples__nacional">Simples Nacional</label>
@@ -40,20 +42,21 @@
                 <input id="lucro__vendas" type="text">
             </div>
             <div class="div__total--incidencias">
-                <p for="total__incidencias">% Total das incidências <span><i id="total__incidencias--js"></i></span></p>
+                <p for="total__incidencias">% Total das incidências: <span><i id="total__incidencias--js"></i></span></p>
             </div>
         </section>
         <section class="kontainer__mark--up">
             <div class="div__markup--divisor">
-                <p>Mark Up Divisor<span><i id="mark__up--divisor--js"></i></span></p>
+                <p>Mark Up Divisor:<span><i id="mark__up--divisor--js"></i></span></p>
             </div>
-            <div class="div__markup--multplicador">Mark Up Multiplicador <span><i id="mark__up--multiplicador--js"></i></span></div>
+            <div class="div__markup--multplicador">
+                <p>Mark Up Multiplicador:<span><i id="mark__up--multiplicador--js"></i></span></p>
+                </div>
         </section>
         <section class="kontainer__preco--final">
-            <p>Preço de venda calculado <span><i id="preco__venda--final--js"></i></span></p>
+            <p>Preço de venda calculado: <span><i id="preco__venda--final--js"></i></span></p>
         </section>
         <button id="button__confirmar">Confirmar</button>
     </main>
-    
 </body>
 </html>

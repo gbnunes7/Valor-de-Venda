@@ -1,0 +1,75 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do main container */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo geral dos sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos labels e inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo dos divs dentro das sections */
+section.kontainer__incidencias div,
+section.kontainer__mark--up div {
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos informativos */
+p {
+    font-weight: bold;
+}
+
+i {
+    font-style: normal;
+    font-weight: normal;
+    color: #007bff;
+    margin-left: 1%;
+}
+
+/* Estilo do botão de confirmar */
+button#button__confirmar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#button__confirmar:hover {
+    background-color: #0056b3;
+}
+
